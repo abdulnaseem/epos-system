@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "Drink",
+    "name": "Coca-Cola",
+    "price": "0.99"
+  },
+  {
+    "id": 2,
+    "category": "Drink",
+    "name": "Redbull",
+    "price": "1.29"
+  },
+  {
+    "id": 3,
+    "category": "Snack",
+    "name": "Walkers Multi-Pack",
+    "price": "2.99"
+  },
+  {
+    "id": 4,
+    "category": "Snack",
+    "name": "Snickers Multi-Pack",
+    "price": "0.99"
+  },
+  {
+    "id": 5,
+    "category": "Sandwich",
+    "name": "Chicken Tikka",
+    "price": "2.95"
+  }
+]
