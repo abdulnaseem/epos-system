@@ -39,6 +39,17 @@ div.basket{
   margin-top: -25px;
   text-align: center;
 }
+.quantity{
+  width: 10%;
+}
+.deleteRow{
+  height:50px;
+}
+h4{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 100px;
+}
 #checkout{
   position: absolute;
   right: 0;

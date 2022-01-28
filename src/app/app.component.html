@@ -2,12 +2,12 @@
  <h1>
    Welcome to our EPOS System!
  </h1>
-  <div class="products" *ngFor="let product of products" (click)="addRow()">
-
-   {{ product.id }}. {{ product.category }} <br>
-   <p class="name">{{ product.name }}</p> <br>
-   <p class="price">£{{ product.price }}</p>
-
+  <div class="products" *ngFor="let product of products">
+    <div class="" (click)="addRow(product.name, product.price)">
+      {{ product.id }}. {{ product.category }} <br>
+      <p class="name">{{ product.name }}</p> <br>
+      <p class="price">£{{ product.price }}</p>
+    </div>
   </div>
 
   <div class="container basket">
@@ -22,7 +22,8 @@
 
       <tbody></tbody>
     </table>
-    <button id="cancel" type="button" class="btn btn-danger">Cancel</button>
+    <h4>Total: </h4>
+    <button id="cancel" type="button" class="btn btn-danger" (click)="cancel()">Cancel</button>
     <button id="checkout" type="button" class="btn btn-primary">Checkout</button>
   </div>
 </div>
